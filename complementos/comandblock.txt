@@ -1,0 +1,27 @@
+*React*
+_____________________________________________________________
+//Criação projeto
+
+npm i -g  					// Atualização de arquivos global
+npx create-next-app@latest			// Criação de Projeto No CMD
+
+//Confirmações no CMD 
+
+TypeScript?	 No
+ESLint?		 No
+Tailwind CSS?	 No 
+`src/`?		 Yes
+App Router?	 Yes
+(@/*)? 		 No 
+_____________________________________________________________
+
+//Codigos Importantes
+
+import 'bootstrap/dist/css/bootstrap.min.css';	//Importar em Layout e retirar a Importação globals
+
+_____________________________________________________________
+
+//Comandos Importantes
+
+npm run dev				//Executa o Projeto
+npm install react-bootstrap bootstrap	//Instala o ReactBootstrap
