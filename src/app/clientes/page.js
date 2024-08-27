@@ -1,10 +1,14 @@
+'use client'
+
 import Link from "next/link";
 import Header from "../components/Header";
 import { Container, Table } from "react-bootstrap";
+import Pagina from "../components/Pagina";
 
 export default function Clientes() {
   return (
-    <main>
+    <Pagina titulo="Clientes" navtitle="Fundamentos">
+
       <Container>
 
         <Header title="Clientes" subtitle="Pagina clientes usando cabeçalho" />
@@ -40,6 +44,6 @@ export default function Clientes() {
           </tbody>
         </Table>
       </Container>
-    </main>
+    </Pagina>
   )
 }

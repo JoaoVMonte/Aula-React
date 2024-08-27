@@ -1,11 +1,13 @@
+'use client'
+
 import { Button, Container } from "react-bootstrap";
 import Header from "./components/Header";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main>
-      <br />
+    <Pagina titulo="Título">
+            
       <Container>
         <Header title="HOME" susubtitleb="SUBTITULO DE HOME" />
 
@@ -17,6 +19,6 @@ export default function Home() {
         <br></br>
         <Link className="btn btn-secondary" href="/fundamentos" >Página Fundamentos</Link>
       </Container>
-    </main>
+      </Pagina>
   );
 }
