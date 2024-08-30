@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Button } from "react-bootstrap";
 export default function Nomes() {
     const [nome, setNome]= useState("Joao")
-    const [valor, setvalor] = useState("0")
+    const [valor, setvalor] = useState(0)
 
     function alterarnome(){
         const novonome = nome == 'Joao' ? 'Joao Victor Monteiro Dantas' : 'Joao'

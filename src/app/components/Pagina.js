@@ -12,6 +12,7 @@ export default function Pagina(props) {
                         <Nav.Link href="/array">Arrays</Nav.Link>
                         <Nav.Link href="/objetos">Carros</Nav.Link>
                         <Nav.Link href="/numeros">Numeros</Nav.Link>
+                        <Nav.Link href="/disney">Disney</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
